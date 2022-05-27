@@ -236,6 +236,37 @@
         </footer>
       </div>
     </div>
+    <div class="modal js-modal">
+      <div class="modal-container js-modal-container">
+        <div class="modal-close js-modal-close">
+          <i class="ti-close"></i>
+        </div>
+        <header class="modal-header">
+          <i class="modal-heading-icon ti-bag"></i>
+          Tickets
+        </header>
+        <div class="modal-body">
+          <lable class="modal-label">
+            <i class="ti-shopping-cart"></i>
+            Tickets, $15 per person
+          </lable>
+          <input type="text" class="modal-input" placeholder="How many?">
+          <lable class="modal-label">
+            <i class="ti-user"></i>
+            Send To
+          </lable>
+          <input type="text" class="modal-input" placeholder="Enter email">
+          <button id="buy-tickets">PAY
+            <i class="ti-check"></i>
+          </button>
+        </div>
+        <footer class="modal-footer">
+          <p class="modal-help">
+            Need <a href="">help?</a>
+          </p>
+        </footer>
+      </div>
+    </div>
     <script>
       const buyBtns=document.querySelectorAll('.js-buy-ticket')
       const modal=document.querySelector('.js-modal')
